@@ -1,0 +1,129 @@
+body{
+    background-image: -webkit-linear-gradient(#7f0033, #370457, black);
+    background-image: -o-linear-gradient(#7f0033, #370457, black);
+    background-image: linear-gradient(#7f0033, #370457, black);
+}
+span{
+
+  font-family: helvetica;
+  font-size: 2rem;
+  font-weight: bold;
+}
+p{
+  margin-bottom: 2px;
+  font-size: 1rem;
+  color: grey;
+}
+hr{
+  margin: 0.5px 0;
+}
+.bg{
+
+    margin: 5%;
+    background-color: #eeeeee;
+    height: 130vh;
+
+}
+
+.bigimg{
+  position: relative;
+  height: 30vh;
+  margin:0
+  z-index: 1;
+  background-attachment: fixed;
+  background: url("landscape.jpg") top;
+}
+.col-2{
+    z-index: 2;
+    height: 80vh;
+    margin: 5% 3% 5% 10%;
+    position: relative;
+
+    box-shadow: -1px 1px 5px 3px black;
+    border
+
+}
+.col-7{
+    margin: 35vh 0 0 0;
+
+}
+.profile{
+    padding: 0;
+    height:50%;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+.about{
+
+  padding: 0;
+  background-color: white;
+  height:44%;
+  z-index: 2;
+  position: relative;
+}
+.image{
+    height: 45vh;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.col-12{
+    box-shadow: -1px 1px 10px 1px black;
+    height: 38vh;
+    margin-bottom: 5%;
+    position: relative;
+    background-color: white;
+    z-index: 2;
+}
+.sub-image{
+    margin-left: 90%
+    margin-right:0  ;
+    height:70px;
+    width:70px;
+    border-radius: 50%;
+    float: right;
+}
+.space{
+    margin:1.5%;
+}
+.mainimage{
+    width:89vw;
+    height:30vh;
+    background-attachment: fixed;
+}
+.music{
+  float: right;
+  height: 60%;
+  width: 50%;
+}
+
+.head{
+  position: absolute;
+  left: 30%;
+  bottom: 20px;
+  color: white;
+  font-size: 4rem;
+}
+.head2{
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  font-size: 1rem;
+  color: #dfdfdf;
+}
+.padding{
+  padding: 15px;
+}
+.fa-play-circle{
+  color: red;
+  float: left;
+  margin-top: 3%;
+  margin-left: 10%;
+  transition: 0.5s;
+  margin-left: 15%;
+}
+.fa-play-circle:hover{
+  color:purple;
+  f
+}
