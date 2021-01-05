@@ -18,17 +18,15 @@ hr{
   margin: 0.5px 0;
 }
 .bg{
-
     margin: 5%;
     background-color: #eeeeee;
-    height: 130vh;
-
+    min-height: 130vh;
 }
 
 .bigimg{
   position: relative;
   height: 30vh;
-  margin:0
+  margin:0;
   z-index: 1;
   background-attachment: fixed;
   background: url("landscape.jpg") top;
@@ -39,8 +37,8 @@ hr{
     margin: 5% 3% 5% 10%;
     position: relative;
 
-    box-shadow: -1px 1px 5px 3px black;
-    border
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    
 
 }
 .col-7{
@@ -77,8 +75,8 @@ hr{
     z-index: 2;
 }
 .sub-image{
-    margin-left: 90%
-    margin-right:0  ;
+    margin-left: 90%;
+    margin-right:0;
     height:70px;
     width:70px;
     border-radius: 50%;
@@ -125,5 +123,5 @@ hr{
 }
 .fa-play-circle:hover{
   color:purple;
-  f
+  
 }
